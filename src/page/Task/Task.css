@@ -1,0 +1,49 @@
+.filterDiv{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f19f9f;
+    padding: 5px;
+}
+
+.addTaskButton{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0.5px solid rgb(161, 56, 56);
+    background-color: rgb(133, 68, 68);
+    color: #f7f7f7;
+    font-weight: bold;
+}
+
+.taskbox{
+    border: 1px solid black;
+    flex: 1;
+    margin: 0px 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: scroll;
+    padding: 0;
+    height: 50vh;
+}
+
+.forAddTask{
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.fixAddTask{
+    position: absolute;
+    top:0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 120vh;
+}
+
+.closeDiv{
+    position: absolute;
+    left: 58vw;
+    top: 14vh;
+}

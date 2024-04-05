@@ -1,0 +1,53 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(pink,purple);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.inputDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+label{
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+input{
+    background-color: white;
+    border:1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button{
+    padding:5px 8px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button :hover {
+    padding:5px 8px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: pink;
+    cursor: pointer;
+}
+.formHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
